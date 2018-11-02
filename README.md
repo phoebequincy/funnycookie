@@ -1,4 +1,4 @@
-### Funny Cookie
+# Funny Cookie
 
 Enliven your day with a ridiculously hilarious fortune from Funny Cookie! Crack the cookie for a chuckle and brighten your day. Save your favorite fortunes, share fortunes on social and sign up for weekly email fortunes.
 

@@ -16,14 +16,15 @@ document.addEventListener('DOMContentLoaded', function() {
   "Sometimes having two left feat puts you in the right direction."];
 
   let maxRandomNums = Math.floor(Math.random() * 20);
-  document.getElementById('genFort').addEventListener('click', function(){
 
+  document.getElementById('genFort').addEventListener('click', function(){
     newFortune(fortunes);
   })
 
   function newFortune(fortunes){
+    // console.log('firing fxn');
     let randomFortune = Math.floor(Math.random() * fortunes.length);
-    console.log(randomFortune);
+    // console.log(randomFortune);
     addFortuneToScreen(randomFortune)
   }
 

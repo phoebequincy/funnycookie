@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pacifico" />
     <link rel="stylesheet" href="style.css">
+    <a href="http://fonts.googleapis.com/css?family=Pacifico" />
     <title>FunnyCookie</title>
   </head>
     <body>
@@ -24,20 +24,26 @@
                 <a class="nav-item nav-link active" href="about.html">About</a>
                 </div>
               </div>
-            </div>
           </nav>
-        </header>
-
-          
-          <div class="main-img"><img src="images/kuwaicookie.png" class="img-fluid" alt="Responsive image"/>
-            </div>
-            <div class="fortuneDisplay", div id='fortuneDisplay'>
+        </div>
+      </header>
+          <div class="container" style="align-content:center">
+            <div class= "row mainHeadline"><h1 class="col-4">Funny Cookie</h1></div>
+              <div class="row main-img">
+                <div class="col-4"></div>
+                <img class="col-4" src="images/kuwaicookie.png" id="cookie" alt="Responsive image" style="height: 25%"/>
+                <div class="col-4"></div>
               </div>
-              <div class="playButton">
-              <button id="genFort">Get your Fortune!</button>
-            </div>
-          </div>
-
-    <script src="main.js"></script>
-  </body>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-8 fortuneDisplay" id='fortuneDisplay'>
+                </div>
+          <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4 playButton">
+                <button id="genFort">Get your Fortune!</button></div>
+          </div><div class="col-4"></div>
+        </div>
+        <script src="main.js"></script>
+    </body>
 </html>

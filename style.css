@@ -44,36 +44,42 @@ body {
 	100% {
 		background-position: 0% 50%
 	}
-}
 
 .navbar {
-  font: Museo Sans
-  color: Black
+  font: Pacifico;
+  color: Black;
   position: fixed;
   width: 100%;
   opacity: 0.6;
   filter: alpha(opacity=60);
 }
 
-.wrapper {
-  text-align: center;
-	position: absolute;
-	top: 45%;
-	right: 0;
-	left: 0;
+.main-img {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  margin: 1em;
 }
 
 .fortuneDisplay {
   text-align: center;
   top: 45%
 }
+.mainfont {
+  font-family:'Pacifico';
+}
 
 .playButton {
-text-align: center;
+font-family:'Roboto';
+  color: #fafafa;
+  font-size: 27px;
+  padding: 19px;
+  text-decoration: none;
+  text-align: center;
 }
 
 h1 {
-	font-family:'Pacifico'
+	font-family:'Pacifico';
 	font-weight: 300;
 	text-align: center;
 	position: absolute;

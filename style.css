@@ -44,48 +44,10 @@ body {
 	100% {
 		background-position: 0% 50%
 	} */
-
-  
-
+}
 .navbar {
-  font: 'Pacifico';
-  background: blue;
   position: fixed;
   width: 100%;
   opacity: 0.6;
   filter: alpha(opacity=60);
-}
-
-#cookie {
-
-  width: 50px;
-}
-.container {
-  align-items: center;
-}
-
-.fortuneDisplay {
-  font-family: 'Roboto';
-  color: #ffffff;
-  text-align: center;
-  top: 45%
-}
-
-.playButton {
-  font-family:'Roboto';
-  color: #fafafa;
-  font-size: 27px;
-  padding: 19px;
-  text-decoration: none;
-  text-align: center;
-
-}
-
-.mainHeadline {
-	font-family:'Pacifico';
-	font-weight: 300;
-	text-align: center;
-}
-.mainfont {
-  font-family:'Pacifico';
 }

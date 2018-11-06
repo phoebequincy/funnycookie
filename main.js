@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    M.AutoInit();
 
   let fortunes = [
   "Run!",
@@ -16,19 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
   "Sometimes having two left feat puts you in the right direction."];
 
   let maxRandomNums = Math.floor(Math.random() * 20);
-
+    // console.log("hello", maxRandomNums);
   document.getElementById('genFort').addEventListener('click', function(){
     newFortune(fortunes);
   })
 
+  //
   function newFortune(fortunes){
     // console.log('firing fxn');
     let randomFortune = Math.floor(Math.random() * fortunes.length);
     // console.log(randomFortune);
     addFortuneToScreen(randomFortune)
+    // console.log("YAAAASSSSS");
   }
-
-  function addFortuneToScreen (randomFortune){
+  //
+  function addFortuneToScreen(randomFortune){
     document.getElementById('fortuneDisplay').innerHTML = fortunes[randomFortune];
   }
 });

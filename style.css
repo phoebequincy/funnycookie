@@ -43,11 +43,57 @@ body {
 	}
 	100% {
 		background-position: 0% 50%
-	} */
+	}
 }
-.navbar {
-  position: fixed;
-  width: 100%;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+
+.body {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+.content-wrapper{
+  display: grid;
+  grid-template-rows: 35vh 30vh 35vh;
+  justify-content: center;
+
+}
+
+.cookieimg{
+  height: 30vh;
+  width: 30vw;
+  grid-row: 1/2;
+  background-image: url('images/kuwaicookie.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
+  margin: auto;
+}
+
+.button {
+  grid-row: 3/4;
+  margin: auto;
+}
+.fortuneField {
+  height: 50vh;
+  width: 100vh;
+  grid-row: 2/3;
+  margin: auto;
+  padding: 2%;
+}
+
+.main-font {
+  font-family: "Pacifico", cursive;
+}
+.brand-logo {
+  margin-left: 1em;
+}
+.fortuneDisplay {
+  height: 30vh;
+  grid-row: 2/3;
+  padding: 5%;
+  margin: auto;
+  text-align: center;
+  font-size: 26px;
 }

@@ -1,19 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
-    localStorage.getItem("first_name");
-    localStorage.setItem['first_name'] = '';
+//This is happening when the user first loads page
 
-document.getElementById('first_name').addEventListener('submit', function() {
-  let displayName = document.getElementById('first_name').value;
-  localStorage.setItem('first_name', displayName);
+  let savedName = localStorage.getItem("first_name") || ''
 
-  let displayName = localStorage.getItem('first_name');
+  addWelcomeToScreen(savedName)
 
-  if (displayName != "undefined" || displayName != "null") {
-    document.getElementById('welcomeMessage').innerHTML = "Hello " + name + "!";
-  } else
-    document.getElementById('welcomeMessage').innerHTML = "Hello!";
-  })
-  function addWelcomeToScreen(displayName){
-    document.getElementById('welcomeDisplay').innerHTML = displayName[name];
-}
+//This is happening when the user submits the form
+  document.getElementById('profile').addEventListener('submit', function() {
+    let displayName = document.getElementById('first_name').value
+    localStorage.setItem('first_name', displayName);
+
+    addWelcomeToScreen(displayName)
+    })
+
+  function addWelcomeToScreen(displayName) {
+    console.log(displayName, "Pinky")
+    //can use anywhere
+    document.getElementById('welcomeDisplay').innerHTML = "Hello " + displayName + "!";
+  }
 });

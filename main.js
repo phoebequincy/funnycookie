@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    M.AutoInit();
+    // M.AutoInit();
 
   let fortunes = [
   "Do these tacos taste funny to you?",
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   "That aluminum foil hat you are wearing means your fellow students cannot steal your brilliant ideas!",
   "Don’t bother paying for those parking tickets! You will need to post bail in a third-world country soon.",
   "You will soon get a job with the only tech company in America that has not fired its CEO for sexual harassment or insider trading.",
-  "Congratulations! You're hired!, We expect to see you at Dunder Mifflin on Monday.",
+  "Congratulations! You're hired! We expect to see you at Dunder Mifflin on Monday.",
   "Remember what Mr. T said, treat your momma right.",
   "Today is a good day to wear that pair of rainbow narwhal underwear your mom gave you.",
   "Wear your sunglasses at night so you can keep track of the visions in your eyes.",

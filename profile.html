@@ -14,7 +14,6 @@
 <body>
   <!--Navbar-->
   <nav>
-    </div>
     <div class="nav-wrapper teal lighten-5">
       <a href="#!" class="brand-logo main-font black-text m-l">Funny Cookie</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -37,25 +36,32 @@
 
   <!--Main Content-->
   <form>
+    <h2>My Profile</h2>
+    <div class="welcomeField">
+      <div class="welcomeDisplay" id="welcomeDisplay">
+        <script src="main.js">
+          `${displayName[name]}`
+        </script>
     <label for="first_name">First Name</label>
-    <input class="active" placeholder="Your first name..." id="first_name" type="text" class="validate" required/>
+    <input class="active" placeholder="Your first name..." id="first_name" type="text" required />
 
     <label for="last_name">Last Name</label>
-    <input class="active" placeholder="Your last name..." id="last_name" type="text" class="validate">
+    <input class="active" placeholder="Your last name..." id="last_name" type="text" required />
 
     <label for="password">Password</label>
-    <input class="active" placeholder="Your password..." maxlength="6" id="password" type="password" class="validate" required/>
+    <input class="active" placeholder="Your password..." maxlength="6" id="password" type="password" required />
 
     <label><input type="checkbox" class="filled-in" checked="checked" />
       <span>Sign me up for a Daily Cookie!</span></label>
 
     <div class="active" class="input-field inline">
-      <input id="email_inline" type="email" class="validate" required/>
+      <input id="email_inline" type="email" class="validate" required />
       <label for="email_inline">Email</label></div>
     <span class="helper-text" data-error="wrong" data-success="right"></span><br>
 
-    <label for="submit"><button>Submit</button></label>
+    <button>Submit</button></label>
   </form>
   <script src="profile.js"></script>
 </body>
+
 </html>

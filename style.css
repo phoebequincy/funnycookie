@@ -76,6 +76,8 @@ body {
   margin: auto;
 }
 .fortuneField {
+  border-radius: 25px;
+  background: #23A6D5;
   height: 50vh;
   width: 100vh;
   grid-row: 2/3;
@@ -96,5 +98,5 @@ body {
   margin: auto;
   text-align: center;
   font-size: 20px;
-  position: fixed;
+  /* position: fixed; */
 }

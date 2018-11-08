@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function addWelcomeToScreen(displayName) {
     //can use anywhere
-    document.getElementById('welcomeDisplay').innerHTML = "Hello there" + displayName + "!";
+    document.getElementById('welcomeDisplay').innerHTML = "Hi there " + displayName;
   }
 });

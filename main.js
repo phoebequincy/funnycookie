@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // M.AutoInit();
 
+  let randomFortune
   let fortunes = [
   "Do these tacos taste funny to you?",
   "You will find a rat and a cracker in the street. Poke it.",
@@ -24,16 +24,13 @@ document.addEventListener('DOMContentLoaded', function() {
   "Sometimes you have to wear one sock and walk around your house."];
 
 
-// newFortune(fortunes)
 
-  let maxRandomNums = Math.floor(Math.random() * 20);
-    // console.log("hello", maxRandomNums);
   document.getElementById('genFort').addEventListener('click', function(){
     newFortune(fortunes);
   })
   function newFortune(fortunes){
-
-    let randomFortune = Math.floor(Math.random() * fortunes.length);
+// this is finding the index of the string that is displayed
+    randomFortune = Math.floor(Math.random() * fortunes.length);
 
     addFortuneToScreen(randomFortune)
 
@@ -41,4 +38,10 @@ document.addEventListener('DOMContentLoaded', function() {
   function addFortuneToScreen(randomFortune){
     document.getElementById('fortuneDisplay').innerHTML = fortunes[randomFortune];
   }
+
 });
+
+  function addToLocalStorage(){
+    console.log("hello")
+    document.getElementById("heart").element.onclick = addToLocalStorage(randomFortune);
+  }

@@ -6,6 +6,6 @@
 .brand-logo {
   margin-left: 1em;
 }
-.tbody {
-  
+.table {
+  box-sizing: border-box;
 }

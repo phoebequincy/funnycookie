@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
   "Today is a good day to wear that pair of rainbow narwhal underwear your mom gave you.",
   "Wear your sunglasses at night so you can keep track of the visions in your eyes.",
   "You might consider new hangers for your closet or a new toothbrush.",
-  "Sometimes you have to wear one sock and walk around your house."];
+  "Sometimes you have to wear one sock and walk around your house for life to feel complete."];
 
 
 

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
-  // var elems = document.querySelectorAll('.sidenav');
-  // var instances = M.Sidenav.init(elems);
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
 
   function addMyFavToScreen(addToLocalStorage){
     console.log("hello");

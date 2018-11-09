@@ -1,11 +1,12 @@
+
 document.addEventListener('DOMContentLoaded', function() {
-//This is happening when the user first loads page
+  // var elems = document.querySelectorAll('.sidenav');
+  // var instances = M.Sidenav.init(elems);
 
   let savedName = localStorage.getItem("first_name") || ''
 
   addWelcomeToScreen(savedName)
 
-//This is happening when the user submits the form
   document.getElementById('profile').addEventListener('submit', function() {
     let displayName = document.getElementById('first_name').value
     localStorage.setItem('first_name', displayName);
@@ -14,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
   function addWelcomeToScreen(displayName) {
-    //can use anywhere
+
     document.getElementById('welcomeDisplay').innerHTML = "Hi there " + displayName;
   }
 });

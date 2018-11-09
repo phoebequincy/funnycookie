@@ -1,8 +1,9 @@
-.body {
+.container {
     display: grid;
     grid-template-columns: 200px 1fr 200px;
     grid-template-rows: auto 1fr auto;
     height: 100vh;
+    text-align: center;
 }
 
 .main-font {
@@ -11,3 +12,4 @@
 
 .brand-logo {
   margin-left: 1em;
+}

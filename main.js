@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
 
   let randomFortune
   let fortunes = [
@@ -31,17 +33,16 @@ document.addEventListener('DOMContentLoaded', function() {
   function newFortune(fortunes){
 // this is finding the index of the string that is displayed
     randomFortune = Math.floor(Math.random() * fortunes.length);
-
     addFortuneToScreen(randomFortune)
-
   }
   function addFortuneToScreen(randomFortune){
     document.getElementById('fortuneDisplay').innerHTML = fortunes[randomFortune];
   }
-
-});
-
   function addToLocalStorage(){
-    console.log("hello")
-    document.getElementById("heart").element.onclick = addToLocalStorage(randomFortune);
+    localStorage.setItem("favFortune",randomFortune);
   }
+  document.getElementById("heart").addEventListener('click', function(){
+
+    addToLocalStorage();
+  })
+});

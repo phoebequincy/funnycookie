@@ -6,80 +6,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
   <title>FunnyCookie</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="login.css">
 </head>
-
-<body>
-  <!--Navbar-->
-  <nav>
-    <div class="nav-wrapper teal lighten-5">
-      <a href="index.html" class="brand-logo main-font black-text m-l">Funny Cookie</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="grey-text text-darken-5" href="login.html">Login</a></li>
-        <li><a class="grey-text text-darken-5" href="profile.html">Profile</a></li>
-        <li><a class="grey-text text-darken-5" href="myfavs.html">Favorites</a></li>
-        <li><a class="grey-text text-darken-5" href="about.html">About</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!--Mobile Nav-->
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="index.html">Login</a></li>
-    <li><a href="profile.html">Profile</a></li>
-    <li><a href="myfavs.html">Favorites</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-
-  <!--Main Content-->
-  <div class="section"></div>
-  <main>
-    <center>
-      <h3 class="black-text">Login or Create Profile</h3>
-      <div class="section"></div>
-
-      <div class="container">
-        <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
-
-          <form class="col s12" method="post">
-            <div class='row'>
-              <div class='col s12'>
-              </div>
-            </div>
-            <div class='row'>
-              <div class='input-field col s12'>
-                <input class='validate' type='email' name='email' id='email' />
-                <label for="email" class="active">Enter your email</label>
-              </div>
-            </div>
-            <div class='row'>
-              <div class='input-field col s12'>
-                <input class='validate' type='password' name='password' id='password' maxlength="6" required />
-                <label for='password' class="active">Your password</label>
-              </div>
-              <label style='float: center;'>
-                <a class='pink-text' href='#!'>Forgot Password?</a>
-              </label>
-            </div>
-            <br />
-            <center>
-              <div class='row'>
-                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect teal'>Login</button>
-              </div>
-            </center>
-          </form>
-        </div>
+  <body>
+    <!--Navbar-->
+    <nav>
+      <div class="nav-wrapper teal lighten-5">
+        <a href="index.html" class="brand-logo main-font black-text m-l">Funny Cookie</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="grey-text text-darken-5" href="login.html">Login</a></li>
+          <li><a class="grey-text text-darken-5" href="profile.html">Profile</a></li>
+          <li><a class="grey-text text-darken-5" href="myfavs.html">Favorites</a></li>
+          <li><a class="grey-text text-darken-5" href="about.html">About</a></li>
+        </ul>
       </div>
-      <a href="profile.html">Create a profile.</a>
-    </center>
+    </nav>
+    <!--Mobile Nav-->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Login</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="myfavs.html">Favorites</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+
+    <!--Main Content-->
     <div class="section"></div>
-    <div class="section"></div>
-  </main>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="login.js"></script>
-</body>
+    <main>
+      <center>
+        <h3 class="black-text">Login or Create Profile</h3>
+        <div class="section"></div>
+
+        <div class="container">
+          <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+            <form class="col s12" method="post">
+              <div class='row'>
+                <div class='col s12'>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='input-field col s12'>
+                  <input class='validate' type='email' name='email' id='email' />
+                  <label for="email" class="active">Enter your email</label>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='input-field col s12'>
+                  <input class='validate' type='password' name='password' id='password' maxlength="6" required />
+                  <label for='password' class="active">Your password</label>
+                </div>
+                <label style='float: center;'>
+                  <a class='pink-text' href='#!'>Forgot Password?</a>
+                </label>
+              </div>
+              <br />
+              <center>
+                <div class='row'>
+                  <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect teal'>Login</button>
+                </div>
+              </center>
+            </form>
+          </div>
+        </div>
+        <a href="profile.html">Create a profile.</a>
+      </center>
+      <div class="section"></div>
+      <div class="section"></div>
+    </main>
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
 
 </html>

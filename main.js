@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+  M.AutoInit();
   var elems = document.querySelectorAll('.sidenav');
-  var instances = M.Sidenav.init(elems);
+  // var instances = M.Sidenav.init(elems);
+
 
   let randomFortune
   let fortunes = [
@@ -26,12 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
   "Sometimes you have to wear one sock and walk around your house for life to feel complete."];
 
 
+let genFort=document.getElementById('genFort')
 
-  document.getElementById('genFort').addEventListener('click', function(){
+  genFort.addEventListener('click', function(){
     newFortune(fortunes);
   })
   function newFortune(fortunes){
-// this is finding the index of the string that is displayed
+
     randomFortune = Math.floor(Math.random() * fortunes.length);
     addFortuneToScreen(randomFortune)
   }

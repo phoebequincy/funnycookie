@@ -1,7 +1,4 @@
-
 document.addEventListener('DOMContentLoaded', function() {
-  // var elems = document.querySelectorAll('.sidenav');
-  // var instances = M.Sidenav.init(elems);
 
   let savedName = localStorage.getItem("first_name") || ''
 
